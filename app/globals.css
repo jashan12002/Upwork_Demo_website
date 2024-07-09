@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Slider1{
+    background: url(../public/Evacuation\ Box\ Cover.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip: content-box;
+}
+.Slider2{
+    background: url(../public/woodcraft_Cover_Background_02-1920x1511h.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+

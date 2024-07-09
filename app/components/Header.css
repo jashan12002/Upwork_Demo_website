@@ -1,0 +1,79 @@
+/* components/Header.css */
+
+.hover-effect {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .hover-effect .icon {
+    transition: color 0.3s ease;
+  }
+  
+  .hover-effect .text {
+    position: relative;
+    padding-bottom: 2px;
+    transition: color 0.3s ease;
+  }
+  
+  .hover-effect:hover .icon {
+    color: #e5007e;
+  }
+  
+  .hover-effect:hover .text {
+    color: white;
+  }
+  
+  .hover-effect:hover .text::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    background-color: #e5007e;
+  }
+  /* components/Header.css */
+.hover-effect {
+    position: relative;
+  }
+  
+  .hover-effect .icon {
+    transition: color 0.3s ease;
+  }
+  
+  .hover-effect .text {
+    position: relative;
+    padding-bottom: 2px;
+    transition: color 0.3s ease;
+  }
+  
+  .hover-effect:hover .icon {
+    color: #e5007e;
+  }
+  
+  .hover-effect:hover .text {
+    color: #e5007e;
+  }
+  
+  .hover-effect:hover .text::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    background-color: #e5007e;
+  }
+  
+  nav {
+    @apply hidden md:flex;
+  }
+  
+  button {
+    @apply text-3xl;
+  }
+  
+  .fixed-menu {
+    transition: transform 0.3s ease-in-out;
+  }
+  

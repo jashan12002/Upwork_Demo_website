@@ -1,0 +1,43 @@
+/* animations.css */
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .slide-content {
+    opacity: 0;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  
+  .slide-content.active {
+    opacity: 1;
+    animation-name: fadeIn;
+  }
+  
+  .button-content {
+    opacity: 0;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  
+  .button-content.active {
+    opacity: 1;
+    animation-name: fadeInUp;
+  }
+  
