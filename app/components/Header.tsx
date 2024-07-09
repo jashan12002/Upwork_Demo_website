@@ -1,4 +1,3 @@
-// components/Header.tsx
 "use client"
 import React, { useState, useEffect, useRef } from 'react';
 import Logo from '@/public/logo.png';
